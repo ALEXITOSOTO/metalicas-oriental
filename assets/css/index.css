@@ -12,7 +12,7 @@ body{
     position: relative;
     width: 100%;
     height: 750px;
-    background-image: url('/assets/img/video_principal.gif');
+    background-image: url('assets/img/video_principal.gif');
     background-repeat: no-repeat; /* Evita la repetición */
     background-size: cover; /* Ajusta el GIF al tamaño de la sección */
     background-position: center; /* Centra el GIF */
@@ -105,7 +105,7 @@ body{
 }
 
 
-/* 🔹 Botón de hamburguesa */
+/* Botón de hamburguesa */
 .menu-toggle {
     display: none;
     font-size: 30px;
@@ -115,7 +115,7 @@ body{
     cursor: pointer;
 }
 
-/* 🔹 Responsive: Menú en pantallas pequeñas */
+/* Responsive: Menú en pantallas pequeñas */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block; /* Muestra el botón en pantallas pequeñas */
@@ -191,7 +191,7 @@ body{
     border: 1px solid white;
 }
 
-/* 🔹 Contenedor principal */
+/* Contenedor principal */
 .galeria-contenedor {
     display: grid;
 
@@ -203,7 +203,7 @@ body{
 
 
 
-/* 🔹 Grid para las miniaturas */
+/* Grid para las miniaturas */
 .miniaturas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -222,7 +222,7 @@ body{
     transform: scale(1.1);
 }
 
-/* 🔹 Responsive */
+/* Responsive */
 @media (max-width: 1024px) {
     .galeria-contenedor {
         grid-template-columns: 1fr;
